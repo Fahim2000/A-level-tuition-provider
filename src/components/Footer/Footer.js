@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 const Footer = () => {
+  // fixed footer at the end
   return (
     <footer className="footer mt-3">
       <h1 className="text-info">

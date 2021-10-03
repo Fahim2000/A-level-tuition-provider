@@ -1,3 +1,4 @@
+/* importing fonts from google font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300;1,500;1,700&display=swap");
 html {
   font-family: "Poppins", sans-serif;
@@ -8,14 +9,14 @@ html {
 html {
   height: 100%;
 }
-
+/* body styling */
 body {
   position: relative;
   margin: 0;
   padding-bottom: 6rem;
   min-height: 100%;
 }
-
+/* footer styling */
 .footer {
   position: absolute;
   right: 0;
@@ -25,7 +26,4 @@ body {
   background-color: #000;
   text-align: center;
   color: #fff;
-}
-a:active {
-  color: rgb(109, 109, 180);
 }

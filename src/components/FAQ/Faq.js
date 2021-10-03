@@ -1,6 +1,7 @@
 import React from "react";
 
 const Faq = () => {
+  // setting up accordion of bootstrap
   return (
     <div className="center d-flex flex-column justify-content-center align-items-center">
       <h1 className="text-center text-muted">FAQ </h1>

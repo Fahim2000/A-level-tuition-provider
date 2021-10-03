@@ -3,6 +3,7 @@ import Courses from "../Courses/Courses";
 
 const AllCourses = () => {
   const [allCourses, setAllCourses] = useState([]);
+  //   fetching data
   useEffect(() => {
     fetch("./data.json")
       .then((res) => res.json())

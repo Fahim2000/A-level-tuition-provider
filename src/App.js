@@ -11,6 +11,7 @@ import NotFound from "./components/NotFound/NotFound";
 function App() {
   return (
     <div>
+      {/* setting up router for every path */}
       <Router>
         <Header></Header>
         <Switch>

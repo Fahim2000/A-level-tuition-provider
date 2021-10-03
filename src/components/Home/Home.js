@@ -3,12 +3,13 @@ import Courses from "../Courses/Courses";
 
 const Home = () => {
   const [courses, setCourses] = useState([]);
+  // fetching data
   useEffect(() => {
     fetch("./data.json")
       .then((res) => res.json())
       .then((data) => setCourses(data));
   }, []);
-  console.log(courses);
+
   return (
     <div className="container mb-5">
       <h2 className="m-3 text-success">
@@ -56,6 +57,7 @@ const Home = () => {
       <h4 className="text-muted text-center mb-4">
         Have a look at some of our courses :{" "}
       </h4>
+      {/* generating single course by mapping over courses */}
       <div className="row row-cols-1 row-cols-md-3 g-4">
         {courses.slice(0, 4).map((course, index) => {
           return <Courses key={index} course={course}></Courses>;
