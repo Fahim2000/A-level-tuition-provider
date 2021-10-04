@@ -9,7 +9,7 @@ const Courses = (props) => {
         <div className="card-body">
           <h5 className="card-title">{courseName}</h5>
           <h5 className="text-secondary">
-            Price :<i class="fas fa-dollar-sign"></i>
+            Price :<i className="fas fa-dollar-sign"></i>
             {price}
           </h5>
           <ul className="card-text m-0 p-0" style={{ listStyle: "none" }}>

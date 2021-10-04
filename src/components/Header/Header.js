@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 // creating header components
 const Header = () => {
   return (
-    <container>
+    <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light ">
         <div className="container-fluid">
           <span className="me-4 fw-bold fs-4 text-success">
@@ -46,7 +46,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-    </container>
+    </div>
   );
 };
 

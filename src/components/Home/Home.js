@@ -23,10 +23,10 @@ const Home = () => {
         timetable, study from anywhere, and get help whenever you need it from
         your expert tutor.
       </p>
-      <div class="container">
-        <div class="row g-2">
-          <div class="col-4">
-            <div class="p-3  text-center">
+      <div className="container">
+        <div className="row g-2">
+          <div className="col-4">
+            <div className="p-3  text-center">
               <img
                 src="https://www.icslearn.co.uk/media/902002/ics-learn-icons-81-chat.png"
                 alt=""
@@ -34,8 +34,8 @@ const Home = () => {
               <p className="fw-bold fs-4">Unlimited tutor support</p>
             </div>
           </div>
-          <div class="col-4">
-            <div class="p-3 text-center">
+          <div className="col-4">
+            <div className="p-3 text-center">
               <img
                 src="https://www.icslearn.co.uk/media/902003/ics-learn-icons-123-time.png"
                 alt=""
@@ -43,8 +43,8 @@ const Home = () => {
               <p className="fw-bold fs-4">Learn at your own pace</p>
             </div>
           </div>
-          <div class="col-4">
-            <div class="p-3 text-center">
+          <div className="col-4">
+            <div className="p-3 text-center">
               <img
                 src="https://www.icslearn.co.uk/media/902001/price-tag-large.png"
                 alt=""
